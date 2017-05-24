@@ -2,13 +2,13 @@ package curse.work;
 
 public abstract class Expression{
     private double x0, y0;
+
     private double  xn;
 
     public Expression(double x0, double y0) {
 
         this.x0 = x0;
         this.y0 = y0;
-
     }
 
     public abstract double getFunction(double x, double y);
