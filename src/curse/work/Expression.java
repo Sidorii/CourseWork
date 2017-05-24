@@ -8,6 +8,7 @@ public abstract class Expression{
 
         this.x0 = x0;
         this.y0 = y0;
+
     }
 
     public abstract double getFunction(double x, double y);
